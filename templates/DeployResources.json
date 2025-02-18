@@ -465,7 +465,7 @@
       {
         "type": "Microsoft.Insights/components",
         "apiVersion": "2020-02-02",
-        "name": "[parameters('logicAppFEname')]",
+        "name": "[parameters('appInsightName')]",
         "location": "[parameters('Location')]",
         "kind": "web",
         "properties": {
